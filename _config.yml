@@ -1,4 +1,5 @@
 # The Site Configuration
+# tes
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -14,27 +15,32 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: s0lkr Redteam Notes # the main title
+title: Hilux's Pentesting Book # the main title
 
-tagline: Cyber security research and notes
-description: Collection of security notes and writeups
+tagline: Cyber theory and writeups # it will display as the subtitle
 
-url: "https://c0skii.github.io" # Sem barra no final!
+description: >- # used by seo meta and the atom feed
+  Collection of notes from my learning journey.
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://c0skii.github.io" # the base hostname & protocol for your site, e.g. 'https://example.com'
+
 github:
-  username: c0skii
+  username: c0skii # change to your GitHub username
 
-#twitter:
-#  username: twitter_username # change to your Twitter username
+twitter:
+  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: mHijuxS
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/s0lkr # change to your GitHub homepage
+    - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -93,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/img/avatar.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -208,7 +214,7 @@ exclude:
   - README.md
   - LICENSE
   - purgecss.js
-  - "*.config.js"
+  - rollup.config.js
   - "package*.json"
 
 jekyll-archives:
